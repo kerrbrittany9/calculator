@@ -1,5 +1,5 @@
-var changeToCel = function (Fahrenheit)  {
-var userTemp = (prompt("Enter Fahrenheit"));
-return(alert(userTemp - 32) * (5/9));
+var tbspToCup = function (Cup) {
+var userTab = (prompt("Enter Tablespoons"));
+return(alert(userTab * 1/16));
 };
-changeToCel();
+tbspToCup();
