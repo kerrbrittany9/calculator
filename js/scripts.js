@@ -1,5 +1,12 @@
-var tbspToCup = function (Cup) {
-var userTab = (prompt("Enter Tablespoons"));
-return(alert(userTab * 1/16));
-};
-tbspToCup();
+jQuery(document).ready(function() {
+  jQuery("h1").click(function() {
+    alert("This is a header.");
+    alert("I told you, THIS IS A HEADER! LEAVE ME ALONE!");
+  });
+  jQuery("p").click(function() {
+    alert("This is a paragraph.");
+  });
+  jQuery("img").click(function() {
+    alert("This is a image.");
+  });
+});
